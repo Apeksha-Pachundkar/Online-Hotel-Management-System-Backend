@@ -1,0 +1,13 @@
+package com.owner;
+
+import org.mockito.Mock;
+
+import com.owner.repository.OwnerRepository;
+
+public class OwnerServiceMockitoTests {
+
+	@Mock
+	OwnerRepository ownerRepository;
+	
+	public List<Owner> owners;
+}
